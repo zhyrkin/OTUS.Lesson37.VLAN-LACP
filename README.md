@@ -1,6 +1,7 @@
 # OTUS.Lesson37.VLAN-LACP
 Тестовый стенд:
 7 VM (2CPU,2GB RAM, 8GB HDD, 5 OS Centos7 и 2 Ubuntu22.04)
+![Скриншот 21-04-2025 154413](https://github.com/user-attachments/assets/fa4285bf-de8d-444f-bc86-758652a482cd)
 
 Домашнее задание: 
 
