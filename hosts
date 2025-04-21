@@ -1,0 +1,14 @@
+[Routers]
+inetRouter      ansible_host=10.200.3.221 bond_ip=192.168.255.1
+centralRouter    ansible_host=10.200.3.222 bond_ip=192.168.255.2
+officeRouter1   ansible_host=10.200.3.223
+
+[Servers]
+testServer1     ansible_host=10.200.3.225 vlan_id=1 vlan_ip=10.10.10.1
+testServer2     ansible_host=10.200.3.226 vlan_id=2 vlan_ip=10.10.10.1
+
+
+[Clients]
+testClient1     ansible_host=10.200.3.224 vlan_id=1 vlan_ip=10.10.10.254
+testClient2     ansible_host=10.200.3.227 vlan_id=2 vlan_ip=10.10.10.254
+
